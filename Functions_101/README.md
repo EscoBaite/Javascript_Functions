@@ -7,8 +7,8 @@ Creating and testing simple functions
     **function multiply (num1, num2)**
 3.  A function called lastElement which accepts a single array argument.
     // The function should return the last element of the array (without removing the element).
-    If the array is empty, the function should return null.
-    fOR EXAMPLE:
+    If the array is empty, the function should return null.  
+    FOR EXAMPLE:
     **lastElement([3,5,7]) //7**
     **lastElement([1]) //1**
     **lastElement([]) //null**
