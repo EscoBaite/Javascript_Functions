@@ -96,3 +96,12 @@ function returnDay (num) {
         return finalDay;
     }
 }
+
+const square = {
+    area(sideLen) {
+        return sideLen * sideLen;
+    },
+    perimeter(sideLen) {
+        return sideLen * 4;
+    }
+};
