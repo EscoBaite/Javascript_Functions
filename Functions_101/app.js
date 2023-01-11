@@ -114,3 +114,35 @@ const square = {
         return sideLen * 4;
     }
 };
+
+// Egg Laying Exercise
+// Define an object called hen.  It should have three properties:
+
+// name should be set to 'Helen'
+
+// eggCount should be set to 0
+
+// layAnEgg should be a method which increments the value of eggCount by 1 and returns the string "EGG".  You'll need to use this.
+
+// hen.name // "Helen"
+// hen.eggCount // 0
+// hen.layAnEgg() // "EGG"
+// hen.layAnEgg() // "EGG"
+// hen.eggCount // 2
+
+const hen = {
+    name: 'Helen',
+    eggCount: 0,
+    layAnEgg(){
+       this.eggCount += 1;
+       return "EGG";
+    }
+};
+
+
+const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+
+// Write your code here
+const firstNames = fullNames.map(function(fName) {
+    return fName.first;
+});
