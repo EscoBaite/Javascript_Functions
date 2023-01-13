@@ -19,4 +19,15 @@ Creating and testing simple functions
     and returns the day of the week (1 is Monday, 2 is Tuesday, etc.)  
     If the number is less than 1 or greater than 7, 
     the function should return null.
-    For example: **returnDay(1) //'Monday'** 
+    For example: **returnDay(1) //'Monday'**
+
+
+    More Functions for app_2 and index_2
+    Map Practice
+    It's time to get practice with the map method!
+
+    Define a variable named firstNames and assign it to the result of mapping over the existing array, fullNames, so that firstNames contains only the first names of the Harry Potter characters from the fullNames array.
+
+    e.g.,
+
+    console.log(firstNames); // ['Albus', 'Harry', 'Hermione', 'Ron', 'Rubeus', 'Minerva', 'Severus'] 
